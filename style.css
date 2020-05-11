@@ -1,0 +1,26 @@
+.img-container {
+    position: relative;
+    background-image: url("images/banner2.jpg");
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 600px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.text-container {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+}
+
+.p-color {
+    color: #276fd8;
+}
